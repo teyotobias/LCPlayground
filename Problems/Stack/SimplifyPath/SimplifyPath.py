@@ -1,3 +1,5 @@
+
+
 def simplifyPath(path):
     curr = ""
     stack = []
