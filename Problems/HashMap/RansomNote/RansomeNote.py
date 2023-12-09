@@ -1,9 +1,21 @@
 
 def canConstruct(ransomNote, magazine):
-
-    for c in ransomNote:
-        if c not in magazine:
+    letMap = {}
+    for i in range(len(magazine)):
+        currLet = magazine[i]
+        if currLet in letMap:
+            letMap[currLet] += 1
+        else:
+            letMap[currLet] = 1
+    for i in range(len(ransomNote)):
+        currLet = ransomNote[i]
+        if currLet in letMap:
+            if letMap[currLet] == 1:
+                del letMap[currLet]
+            else:
+                letMap[currLet] -= 1
+        else:
             return False
-        location = magazine.index(c)
-        magazine = magazine[:location] + magazine[location + 1:]
     return True
+
+
