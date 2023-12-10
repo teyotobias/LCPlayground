@@ -1,4 +1,3 @@
-
 def merge(self, nums1, m: int, nums2, n):
         mergedList = []
         i = 0
