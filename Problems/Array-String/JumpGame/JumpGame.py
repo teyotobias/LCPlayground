@@ -1,4 +1,5 @@
-
+# Runtime: 394 ms
+# Memory Usage: 17.6 MB
 def canJump(self, nums):
         n = len(nums)
         last_index = n - 1

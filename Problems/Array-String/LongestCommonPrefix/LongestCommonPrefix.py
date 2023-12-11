@@ -1,4 +1,5 @@
-
+#Runtime: 63 ms
+#Memory Usage: 16.4 MB
 def longestCommonPrefix(self, strs):
         answer = strs[0]
         n = len(strs)

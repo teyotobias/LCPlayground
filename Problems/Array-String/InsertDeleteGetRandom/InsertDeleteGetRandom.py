@@ -1,4 +1,5 @@
-
+# Runtime: 294 ms
+# Memory Usage: 63.6 MB
 
 class RandomizedSet:
 

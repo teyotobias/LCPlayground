@@ -1,4 +1,5 @@
-
+#Runtime: 183 ms
+#Memory Usage: 27.9 MB
 def rotate(self, nums, k):
         n = len(nums)
         if k > n:

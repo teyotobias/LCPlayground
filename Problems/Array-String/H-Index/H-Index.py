@@ -1,3 +1,5 @@
+# Runtime: 31 ms
+# Memory Usage: 16.7 MB
 
 def hIndex(self, citations):
         #Two different implementations

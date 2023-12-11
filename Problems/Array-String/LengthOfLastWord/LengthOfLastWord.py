@@ -1,4 +1,5 @@
-
+#Runtime: 32 ms
+#Memory Usage: 16.3 MB
 def lengthOfLastWord(self, s):
         # currLen = 0
         # for i in range(len(s)):

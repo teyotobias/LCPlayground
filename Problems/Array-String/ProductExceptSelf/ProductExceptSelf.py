@@ -1,4 +1,5 @@
-
+# Runtime: 194 ms
+# Memory Usage: 24 MB
 def productExceptSelf(self, nums):
         #for i in range(x,y,z) - start,stop,step
         #using division property

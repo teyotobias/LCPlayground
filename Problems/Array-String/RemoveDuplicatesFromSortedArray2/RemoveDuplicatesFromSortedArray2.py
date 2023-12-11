@@ -1,4 +1,5 @@
-
+#Runtime: 52 ms
+#Memory Usage: 16.3 MB
 def removeDuplicates(self, nums):
         n = len(nums)
         if(n <= 2):

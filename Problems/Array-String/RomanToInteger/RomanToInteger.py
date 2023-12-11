@@ -1,4 +1,5 @@
-
+#Runtime: 33 ms
+#Memory Usage: 16.3 MB
 def romanToInt(self, s):
         answer = 0
         dict = {

@@ -1,3 +1,6 @@
+#Runtime: 83 ms
+#Memory Usage: 17.9 MB
+
 def removeDuplicates(self, nums):
         #using to our advantage that it is an ordered list
         index = 1

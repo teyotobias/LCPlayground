@@ -1,4 +1,5 @@
-
+#Runtime: 41 ms
+#Memory Usage: 16.1 MB
 def removeElement(self, nums, val):
         index = 0
         n = len(nums)

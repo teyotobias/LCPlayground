@@ -1,4 +1,5 @@
-
+#Runtime: 112 ms
+#Memory Usage: 17.2 MB
 def jump(self, nums):
         if len(nums) <= 1: return 0
         jumps = 1

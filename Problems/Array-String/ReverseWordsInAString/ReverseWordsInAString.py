@@ -1,4 +1,5 @@
-
+# Runtime: 40 ms
+# Memory Usage: 16.2 MB
 def reverseWords(self, s):
 
         strs = s.split()

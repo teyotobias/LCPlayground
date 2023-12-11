@@ -1,3 +1,6 @@
+# Runtime: 39 ms
+# Memory Usage: 16.2 MB
+
 def merge(self, nums1, m: int, nums2, n):
         mergedList = []
         i = 0
