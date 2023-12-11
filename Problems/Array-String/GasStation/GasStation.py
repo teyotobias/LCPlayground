@@ -1,3 +1,5 @@
+# Runtime: 1028 ms
+# Memory Usage: 22.1 MB
 
 def canCompleteCircuit(self, gas, cost) -> int:
         tank = 0
