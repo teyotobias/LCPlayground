@@ -1,5 +1,6 @@
 # 36. Valid Sudoku
-
+# Runtime: 100 ms
+# Memory Usage: 16.4 MB
 
 def isValidSodoku(board):
     n = 9

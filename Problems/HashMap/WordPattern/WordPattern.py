@@ -1,3 +1,5 @@
+# Runtime: 40 ms
+# Memory Usage: 16.3 MB
 class Solution:
     def wordPattern(self, pattern: str, s: str) -> bool:
         map_char = {}

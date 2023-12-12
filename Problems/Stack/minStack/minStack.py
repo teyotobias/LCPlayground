@@ -1,3 +1,6 @@
+# Runtime: 68 ms
+# Memory Usage: 20.9 MB
+
 class minStack:
     def __init__(self):
         #initialize stack

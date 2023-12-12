@@ -1,4 +1,5 @@
-
+# Runtime: 38 ms
+# Memory Usage: 16.4 MB
 
 def simplifyPath(path):
     curr = ""

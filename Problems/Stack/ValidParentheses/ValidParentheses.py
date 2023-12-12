@@ -1,4 +1,5 @@
-
+# Runtime: 36 ms
+# Memory Usage: 16.5 MB
 
 def isValid(s):
     characters = {

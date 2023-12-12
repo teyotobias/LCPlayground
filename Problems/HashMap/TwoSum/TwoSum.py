@@ -1,3 +1,6 @@
+# Runtime: 62 ms
+# Memory Usage: 17.6 MB
+
 class Solution:
     def twoSum(self, nums, target):
 

@@ -1,4 +1,5 @@
-
+# Runtime: 624 ms
+# Memory Usage: 29.3 MB
 def maxArea(self, height):
         left, right = 0, len(height) - 1
         maxA = 0

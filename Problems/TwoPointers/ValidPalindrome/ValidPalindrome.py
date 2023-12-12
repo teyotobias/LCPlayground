@@ -1,3 +1,6 @@
+# Runtime: 50 ms
+# Memory Usage: 17.1 MB
+
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         r = len(s) - 1

@@ -1,3 +1,6 @@
+# Runtime: 45 ms
+# Memory Usage: 16.4 MB
+
 def lengthOfLongestSubstring(self, s: str) -> int:
         #sliding window, longest substr between left and right
             #increment right and find length as you go

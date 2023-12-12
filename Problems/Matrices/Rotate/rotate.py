@@ -1,3 +1,5 @@
+# Runtime: 44 ms
+# Memory Usage: 16.3 MB
 
 def rotate(matrix):
     left, right = 0, len(matrix) - 1

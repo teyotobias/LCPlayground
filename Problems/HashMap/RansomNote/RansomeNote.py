@@ -1,4 +1,5 @@
-
+#Runtime: 70 ms
+#Memory Usage: 16.5 MB
 def canConstruct(ransomNote, magazine):
     letMap = {}
     for i in range(len(magazine)):

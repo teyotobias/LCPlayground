@@ -1,4 +1,4 @@
-
+#have not done yet
 
 def hasCycle(head):
     if not head or not head.next: return False        
