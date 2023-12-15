@@ -1,6 +1,54 @@
 #a dictionary stores data in the form of key-value pairs. It is a sequential, heterogenous, 
 # unordered, indexed, mutable data structure
 
+# .get(key, (default))
+value = {'a':1, 'b':2}.get('b', 0) # 2
+
+# .items() - get key-value pairs as a new object
+for key,value in {'a': 1, 'b': 2}.items():
+    print(key, value) # 'a' 1, 'b' 2
+
+# .keys() get keys as a new view object.
+keys = {'a': 1, 'b': 2}.keys() # dict_keys(['a', 'b'])
+
+# .values() get values as a new view object
+values = {'a':1, 'b':2}.values() # dict_values([1,2])
+
+# .pop(key, (default)) removes specified key and return its value
+value = {'a': 1, 'b': 2}.pop('a') # 1, {'b': 2}
+
+# .popitem() remove and return a (key, value) pair
+item = {'a': 1, 'b': 2}.popitem() # ('b', 2), {'a': 1}
+
+# update([other]) update dictionary with key/value pairs from other
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 dict = {'a': 1, 'b': 2, 'c': 3} #declare a dict
 
 

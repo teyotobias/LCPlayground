@@ -4,6 +4,9 @@
 #sequential: a list can be iterated over
 #mutable : the items can be changed
 #non-unique: the same element can appear more than once in a list
+# .append, .remove, .extend, .copy, .reverse, .insert, .pop, .sort, .clear, .count
+
+
 
 # .append(x)
 numbers = [1,2,3]
