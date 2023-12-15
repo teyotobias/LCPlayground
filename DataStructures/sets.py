@@ -1,6 +1,54 @@
 #A set is a collection of comma seperated, unordered, unique elements within curly brackets.
 #it is mutable, unindexed, and heterogenous
 
+"""
+add(elem)
+remove(elem)
+discard(elem) remove an element if it is a member
+pop() remove and return an arbitrary element
+clear() remove all elements from a set
+union(other, ...) returns a new set with elements from the set and others
+intersection(other, ...) returns a new set with elements common to the set and others
+difference(other, ...) return a new set with elements in the sest but not in others
+symmetric_difference(other) returns a new set with elements in either the set or other but not both
+
+"""
+# playground
+numbers = {1,2,3} # 1,2,3
+numbers.add(4) #1,2,3,4
+numbers.remove(4) #1,2,3
+numbers.discard(5) #1,2,3
+numbers.pop() #1,2 or 1,3 or 2,3
+numbers.clear() # none
+{1,2}.intersection({2,3}) # 2
+{1,2}.union({2,3}) # 1,2,3
+{1,2}.difference({2,3}) # 1
+{1,2}.symmetric_difference({2,3}) # 1,3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 set = {1,2,3}
 
 set.add(4)

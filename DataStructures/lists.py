@@ -4,7 +4,37 @@
 #sequential: a list can be iterated over
 #mutable : the items can be changed
 #non-unique: the same element can appear more than once in a list
-# .append, .remove, .extend, .copy, .reverse, .insert, .pop, .sort, .clear, .count
+
+"""
+.append(x)  # adds a new element to the end of a list
+.extend(iterable) adds all elements of an iterable to the end of the list
+.insert(i,x) insert an element at a specific position - index, value
+.remove(x) remove the first occurence of an element
+.pop([i]) remove and return an element (by index, or last if index is omitted)
+.clear() removes all elements
+.index(x, [, start[, end]]) find the index of an element
+.count(x) count occurences of an element
+.sort(key=None, reverse=False) sort the list
+.reverse() reverse the list
+.copy() create a shallow copy of the list
+
+"""
+
+#playground
+numbers = [1,2,3] # 1 2 3
+numbers.append(4) # 1 2 3 4
+numbers.extend([5,6]) # 1 2 3 4 5 6
+numbers.insert(2,'a') # 1 2 'a' 3 4 5 6
+numbers.remove('a') # 1 2 3 4 5 6
+last = numbers.pop() # 1 2 3 4 5
+numbers.clear() #
+index = [1,2,3,4,5].index(3) # 2
+count = [1,2,3,4,5].count(3) # 1
+[3,1,4,1,5].sort() # 1 1 3 4 5
+[1,2,3].reverse() # 3 2 1
+original = [1,2,3]
+copy = original.copy() # 1 2 3
+
 
 
 
@@ -82,67 +112,3 @@ fruits.sort(key=lambda fruit: fruit.quantity) # Sort by quantity
 # .copy() 
 original = [1,2,3]
 copy = original.copy() # [1,2,3]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-nums = [1,2,3]
-
-print(nums.index(1)) #returns index of specified value
-nums.append(1) #appends 1 to list
-nums.insert(0, 10) #inserts 10 at 0th index
-nums.remove(3) #removes value from list
-nums2 = nums.copy() #returns a copy of the list
-#list comprehensions
-squares = [x**2 for x in range(1,41)]
-nums3 = [num for num in squares if num%2==0]
-result = [num if num%2==0 else 'no' for num in squares]
-
-print(nums2)
-print(nums.count(1)) #counts the number of occurences of the provided value in the list
-nums.extend(nums2) #adds specified list to the end of nums
-print(nums)
-nums.pop() #pops last element (which element to pop can also be given as an optional argument)
-nums.reverse() #reverses original list (nums in this case)
-print(nums)
-nums.sort() #sorts list (doesn't return ordered list - modifies in place)
-print(nums)
-
-#indexingm- can also "slice"
-print(nums) #full list
-
-#nums[stop:start]
-print(nums[0:3]) #prints first 3 numbers
-#nums[start:]
-print(nums[3:]) #prints the rest of the lsit
-#nums[:stop]
-print(nums[:3]) #will print the same thing as first example, all elements up to index 3
-#nums[:]
-print(nums[:]) #prints the whole array
-#nums[-1]
-print(nums[-1]) #prints the last element of the list
