@@ -2,6 +2,14 @@
 # Memory Usage: 20.8 MB, less than 20.94% of Python3 online submissions for 3Sum.
 
 def threeSum(nums):
+    # make a result set to hold all triplets that add up to 0
+    #gather pos, neg, and zeros into 3 different lists
+    # make a set of pos and negs out of the lists
+    #check for possible scenarios to add up to 0:
+        # Three 0s
+        # One 0, 1 pos, 1 neg
+        # two positive, 1 negative
+        # two negative, 1 positive
     res = set()
     p, n, z = [], [], []
     for num in nums:
@@ -29,4 +37,8 @@ def threeSum(nums):
             if target in positives:
                 res.add(tuple(sorted([n[i], n[j], target])))
     return res
+
+
+    def threeSum(nums):
+
 
