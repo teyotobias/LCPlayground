@@ -37,8 +37,3 @@ def threeSum(nums):
             if target in positives:
                 res.add(tuple(sorted([n[i], n[j], target])))
     return res
-
-
-    def threeSum(nums):
-
-
