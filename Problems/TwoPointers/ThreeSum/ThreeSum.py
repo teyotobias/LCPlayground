@@ -1,6 +1,8 @@
 # Runtime: 683 ms, faster than 95.84% of Python3 online submissions for 3Sum.
 # Memory Usage: 20.8 MB, less than 20.94% of Python3 online submissions for 3Sum.
 
+
+# redo problem soon - check for pattern
 def threeSum(nums):
     # make a result set to hold all triplets that add up to 0
     #gather pos, neg, and zeros into 3 different lists
